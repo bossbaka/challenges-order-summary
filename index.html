@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -43,57 +43,63 @@
     <title>Frontend Mentor | Order summary card</title>
   </head>
   <body>
-    <div
-      class="mx-auto my-[50px] overflow-hidden max-w-[450px] rounded-[20px] bg-white"
-    >
-      <img src="./images/illustration-hero.svg" />
+    <section>
+      <div
+        class="mx-auto my-[50px] overflow-hidden max-w-[450px] rounded-[20px] bg-white"
+      >
+        <img src="./images/illustration-hero.svg" alt="illustration-hero" />
 
-      <div class="m-[2.8rem]">
-        <p class="text-[32px] font-black text-center text-dark-blue my-5">
-          Order Summary
-        </p>
+        <div class="m-[2.7rem]">
+          <p class="text-[32px] font-black text-center text-dark-blue my-5">
+            Order Summary
+          </p>
 
-        <p class="font-[500] text-center text-desaturated-blue my-5">
-          You can now listen to millions of songs, audiobooks, and podcasts on
-          any device anywhere you like!
-        </p>
+          <p class="font-[500] text-center text-desaturated-blue my-5">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
 
-        <div
-          class="flex items-center bg-slate-50 rounded-[10px] p-6 my-5 overflow-auto"
-        >
-          <img src="./images/icon-music.svg" class="inline-block" />
+          <div
+            class="flex items-center bg-slate-50 rounded-[10px] p-6 my-5 overflow-auto"
+          >
+            <img
+              src="./images/icon-music.svg"
+              class="inline-block"
+              alt="icon-music"
+            />
 
-          <div class="grow mx-5">
-            <strong class="text-dark-blue font-[900]">Annual Plan</strong>
-            <div class="text-desaturated-blue font-[500]">$59.99/year</div>
+            <div class="grow mx-5">
+              <strong class="text-dark-blue font-[900]">Annual Plan</strong>
+              <div class="text-desaturated-blue font-[500]">$59.99/year</div>
+            </div>
+            <p class="text-bright-blue underline font-[700]">Change</p>
           </div>
-          <p class="text-bright-blue underline font-[700]">Change</p>
+          <button
+            class="font-[700] bg-bright-blue rounded-[10px] w-full p-3 text-white shadow-3xl shadow-bright-blue my-3"
+          >
+            Proceed to Payment
+          </button>
+          <button class="font-[700] w-full p-3 text-desaturated-blue mt-3 mb-0">
+            Cancel Order
+          </button>
         </div>
-        <button
-          class="font-[700] bg-bright-blue rounded-[10px] w-full p-3 text-white shadow-3xl shadow-bright-blue my-3"
-        >
-          Proceed to Payment
-        </button>
-        <button class="font-[700] w-full p-3 text-desaturated-blue my-3">
-          Cancel Order
-        </button>
       </div>
-    </div>
 
-    <div class="text-center text-dark-blue">
-      Challenge by
-      <a
-        class="text-desaturated-blue"
-        href="https://www.frontendmentor.io?ref=challenge"
-        target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a
-        class="text-desaturated-blue"
-        href="https://github.com/bossbaka"
-        target="_blank"
-        >bossbaka</a
-      >.
-    </div>
+      <div class="text-center text-dark-blue">
+        Challenge by
+        <a
+          class="text-desaturated-blue"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="text-desaturated-blue"
+          href="https://github.com/bossbaka"
+          target="_blank"
+          >bossbaka</a
+        >.
+      </div>
+    </section>
   </body>
 </html>
