@@ -1,5 +1,7 @@
 # Frontend Mentor - Order summary card
 
+https://bossbaka.github.io/challenges-order-summary/
+
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
